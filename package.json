@@ -1,0 +1,28 @@
+{
+  "name": "eclub-apps",
+  "version": "1.0.0",
+  "description": "Eclub IOT application server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novotmike/eclub-apps.git"
+  },
+  "keywords": [
+    "IOT",
+    "eClub",
+    "eSense"
+  ],
+  "author": "Michal Novotny, Tomas Pikous",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/novotmike/eclub-apps/issues"
+  },
+  "homepage": "https://github.com/novotmike/eclub-apps#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "request": "^2.63.0"
+  }
+}
