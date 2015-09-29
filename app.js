@@ -1,4 +1,6 @@
-var apptor = require('./apptor');
-var beaconApp = require('beacon-app');
+var Apptor = require('./apptor');
+var snakeApp = require('snake-app');
 
-apptor().use(beaconApp);
+var apptor = new Apptor();
+	apptor.api("http://147.32.110.50:8080");
+	apptor.use(snakeApp);
